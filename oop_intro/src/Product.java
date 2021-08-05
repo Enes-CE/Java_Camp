@@ -1,5 +1,5 @@
 public class Product {
-
+    //final ifadesi constructor'da set edilebilir. Constructor dışında set edilemez!!!
     private int id;
     private String name;
     private double unitPrice;
@@ -8,7 +8,7 @@ public class Product {
 
 
     public Product(){
-
+        System.out.println("Ben çalıştım.");
     }
 
 
